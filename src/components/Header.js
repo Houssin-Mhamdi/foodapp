@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 // import components
 import Nav from '../components/Nav';
 // import logo
-import logoKiwii from '../assets/img/header/logoKiwii.jpg';
+import logoKiwii from '../assets/img/logo.png';
 // import motion
 import { motion } from 'framer-motion';
 // import variants
@@ -79,7 +79,7 @@ const Header = () => {
             <a href='#'>
               {/* if header is active make logo 90 x 90 px else 107 x 107px */}
               <img
-                className={`${isActive ? 'w-[150px] h-[100px]' : 'w-[107px] h-[107px]'
+                className={`${isActive ? 'w-[200px]' : 'w-[200px] '
                   }`}
                 src={logoKiwii}
                 alt=''

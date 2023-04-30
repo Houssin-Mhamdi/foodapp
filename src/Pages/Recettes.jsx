@@ -27,9 +27,9 @@ export default function Recettes() {
       <aside className=''>
         <div className='flex gap-10 mt-10 '>
           <h2>Nom de la reccette</h2>
-          <button className='bg-slate-400 text-white p-1 px-5 rounded-lg flex items-center gap-5'> 
-          <BsShare />
-          <p>partager</p>
+          <button className='bg-slate-400 text-white p-1 px-5 rounded-lg flex items-center gap-5'>
+            <BsShare />
+            <p>partager</p>
           </button>
         </div>
         <div className='flex gap-7 mt-10'>
@@ -60,6 +60,8 @@ export default function Recettes() {
           </aside>
         </div>
       </aside>
+      
     </section>
+
   )
 }
